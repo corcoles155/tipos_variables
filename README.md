@@ -12,7 +12,7 @@ Cada uno de los tipos anteriores se dividen en varios grupos, por ejemplo las va
 
 GOLANG es un lenguaje tipado, esto quiere decir que al declarar una variable tenemos que indicar de que tipo es.
 
-#¿Cómo declaramos una variable?
+# ¿Cómo declaramos una variable?
 
 Las podemos declarar fuera de funciones (se puede usar en todas las funciones que pertenecen al paquete) y dentro de funciones (sólo se puede usar dentro de usa función).
 
@@ -35,7 +35,7 @@ Cuando declaramos una variable en GOLANG, sea del tipo que sea, las inicializa:
 - variables de tipo string = ""
 - variables de tipo booleano = false
 
-#¿Cómo podemos declarar variables y funciones para que se pueda acceder a ellas desde otro paquete?
+# ¿Cómo podemos declarar variables y funciones para que se pueda acceder a ellas desde otro paquete?
 
 Para poder acceder a variables y funciones desde otro paquete basta con poner la primera letra en mayúscula, por ejemplo:
 
@@ -43,7 +43,7 @@ Para poder acceder a variables y funciones desde otro paquete basta con poner la
 
 ```func MostrarNumero()  {}```
 
-#¿Cómo podemos convertir de un tipo de variable a otro?
+# ¿Cómo podemos convertir de un tipo de variable a otro?
 
 GOLANG no permite hacer conversiones de forma explícita, por ejemplo si tengo una variable de tipo float32 ```var numero1 float32 = 1``` y otra de tipo int ```var numero2 int = 1``` no puedo convertir numero1 a int de esta forma ```numero2 = numero1```, tendría que hacer lo siguiente ```numero2 = int(numero1)```.
 
